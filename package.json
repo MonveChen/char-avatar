@@ -1,7 +1,7 @@
 {
   "name": "char-avatar",
-  "version": "1.0.1",
-  "description": "for compare version",
+  "version": "1.0.2",
+  "description": "create a character avatar",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -21,14 +21,11 @@
     "url": "git+https://github.com/MonveChen/char-avatar.git"
   },
   "keywords": [
-    "prototype",
-    "function",
-    "extend",
-    "plugin",
-    "base",
-    "class",
-    "remove",
-    "deduplicatePush"
+    "character",
+    "avatar",
+    "string",
+    "react",
+    "color"
   ],
   "author": "Monve",
   "license": "Apache-2.0",
