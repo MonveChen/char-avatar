@@ -1,6 +1,6 @@
 {
   "name": "char-avatar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "create a character avatar",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
