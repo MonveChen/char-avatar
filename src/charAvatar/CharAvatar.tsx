@@ -2,7 +2,7 @@
  * @Author: Monve
  * @Date: 2022-03-02 11:37:09
  * @LastEditors: Monve
- * @LastEditTime: 2022-03-02 16:23:47
+ * @LastEditTime: 2022-04-12 17:24:01
  * @FilePath: /char-avatar/src/charAvatar/CharAvatar.tsx
  */
 // @ts-ignore
@@ -49,9 +49,9 @@ export const CharAvatar = (
 ) => {
   return (
     <Avatar
-      initials={str[0].toUpperCase()}
+      initials={(str && str.length > 0) ? str[0].toUpperCase() : ''}
       width={width}
-      bgColor={bgColor ? bgColor : selectBgColor(str, bgColors)}
+      bgColor={bgColor ? bgColor : selectBgColor(str || '', bgColors)}
       textColor={textColor ? textColor : "#FFF"}
       cornerRadius={cornerRadius ? cornerRadius : width / 2}
       fontWeight={fontWeight ? fontWeight : 100 * 1.5}
